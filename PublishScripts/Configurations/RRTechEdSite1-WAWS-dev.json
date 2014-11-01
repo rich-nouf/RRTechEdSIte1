@@ -1,0 +1,20 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "RRTechEdSite1",
+            "location": "Australia Southeast"
+        },
+        "databases": [
+            {
+                "connectionStringName": "",
+                "databaseName": "",
+                "serverName": "",
+                "user": "",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": ""
+            }
+        ]
+    }
+}
