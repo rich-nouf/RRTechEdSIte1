@@ -10,11 +10,15 @@ namespace RRTechEdSite.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceWarning("Accessed Index at {0}", DateTime.Now);
+
             return View();
         }
 
         public ActionResult About()
         {
+            System.Diagnostics.Trace.TraceWarning("Accessed About at {0}", DateTime.Now);
+
             ViewBag.Message = "Your application description page.";
 
             return View();
@@ -22,6 +26,8 @@ namespace RRTechEdSite.Controllers
 
         public ActionResult Contact()
         {
+            System.Diagnostics.Trace.TraceWarning("Accessed Contacts at {0}", DateTime.Now);
+
             ViewBag.Message = "Your contact page.";
 
             return View();
